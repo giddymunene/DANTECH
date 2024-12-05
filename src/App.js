@@ -8,17 +8,22 @@ import Testimonials from './components/Testimonials';
 import Articles from './components/Articles';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
     <Router>
       <div>
         <Header />
-        <HeroSection />
-        <Services />
-        <Testimonials />
-        <Articles />
-        <Contact/>
+        <Routes>
+          {/* Define routes for each component */}
+          <Route path="/" element={<HeroSection />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about-us" element={<AboutUs />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
