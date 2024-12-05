@@ -35,10 +35,10 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className="py-5 bg-success">
+    <div id="services" className="py-5 bg-white">
       <div className="container text-center">
       <img
-          src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/468606534_122171855300125327_1476798654302439438_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EBSgrrSEiMQQ7kNvgH9p8_t&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=AVVH8XxbercxzJKNcgzeuoX&oh=00_AYBpLq5CFXUIm6omcvH8c14kZcQB4PAvpVjgecDP1Gnnng&oe=6757B8C9" // Replace with actual banner URL
+          src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/468917813_122171861888125327_3895030418512178837_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Q5sDNtbNrTYQ7kNvgEBbISh&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=AhERk0EbrI_7P4bs0OooMmy&oh=00_AYB_8cDirchHrqJ6rWIvgRGNDYxI0czBJWjohf31FjdvDw&oe=6757AB24" // Replace with actual banner URL
           alt="Services Banner"
           className="img-fluid mb-4"
           style={{ objectFit: "cover", maxHeight: "800px", width: "100%" }}
